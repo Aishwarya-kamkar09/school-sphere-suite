@@ -8,9 +8,13 @@ export default defineConfig(({ mode }) => ({
     host: true,
     port: 8080,
     allowedHosts: "all",
-    hmr: {
-      overlay: false,
-    },
+  },
+
+  // 🔥 ADD THIS BLOCK (IMPORTANT)
+  preview: {
+    host: true,
+    port: 8080,
+    allowedHosts: "all",
   },
 
   plugins: [
@@ -22,13 +26,5 @@ export default defineConfig(({ mode }) => ({
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
-    dedupe: [
-      "react",
-      "react-dom",
-      "react/jsx-runtime",
-      "react/jsx-dev-runtime",
-      "@tanstack/react-query",
-      "@tanstack/query-core",
-    ],
   },
 }));
