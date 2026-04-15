@@ -187,7 +187,7 @@ const Fees = () => {
             {receiptView && (
               <div className="space-y-4 p-4 border rounded-lg">
                 <div className="text-center border-b pb-3">
-                  <h2 className="text-lg font-bold">SchoolSphere Pro</h2>
+                  <h2 className="text-lg font-bold">INDDIA ERP</h2>
                   <p className="text-sm text-muted-foreground">Fee Receipt</p>
                 </div>
                 <div className="grid grid-cols-2 gap-2 text-sm">

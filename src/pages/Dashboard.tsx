@@ -118,7 +118,7 @@ const Dashboard = () => {
         <div className="flex items-center justify-between flex-wrap gap-2">
           <div>
             <h1 className="text-2xl md:text-3xl font-bold">
-              {schoolInfo?.name || "SchoolSphere Pro"}
+              {schoolInfo?.name || "INDDIA ERP "}
             </h1>
             <p className="text-muted-foreground text-sm">{schoolInfo?.address || "Welcome to your school management dashboard"}</p>
             <p className="text-xs text-muted-foreground/70 mt-1">
